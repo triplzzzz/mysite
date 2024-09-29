@@ -1,0 +1,85 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/01.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1100px;
+}
+
+.u-section-1 .u-text-1 {
+  line-height: 1.4;
+  font-size: 1.5rem;
+  margin: 20px 0 60px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 907px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 695px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 521px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 328px;
+  }
+}
+
+#result-message {
+  display: none;
+  padding: 20px;
+  margin: 20px;
+  text-align: center; 
+}
+
+
+    #survey-form button {
+        background-color: black; 
+        color: white; 
+        border: none; 
+        padding: 10px 20px; 
+        margin-top: 20px; 
+        cursor: pointer; 
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    #survey-form p {
+      text-align: center; 
+  }
+  
+  #survey-form input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 500px;
+  }
+  
+  #survey-form label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+  }
+  h2 {
+    text-align: center; /* Выравниваем текст по центру */
+  }
+
+
